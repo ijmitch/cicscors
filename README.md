@@ -1,4 +1,4 @@
-Disclaimer: this is an informal discussion of CORS applied to CICS TS between interested parties. It is not endorsed by IBM.
+Disclaimer: this is a public, informal discussion of CORS applied to CICS TS between interested parties. It is not endorsed by IBM.
 
 # CORS requirements
 
