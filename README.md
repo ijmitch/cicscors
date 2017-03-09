@@ -2,7 +2,7 @@ Disclaimer: this is a public, informal discussion of CORS applied to CICS TS bet
 
 # CORS requirements
 
-CICS HTTP support is currently unhelpful if the web client (browser or REST client) sends the requests required to implement the [CORS protocol](https://spring.io/understanding/CORS).
+CICS HTTP support is currently unhelpful if the web client (browser or REST client) sends the requests required to implement the [CORS protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP/Access_control_CORS).
 
 In particular, CICS TS treats any OPTIONS request as an invalid request and returns an error to the client.
 
