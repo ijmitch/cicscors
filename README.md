@@ -6,6 +6,8 @@ CICS HTTP support is currently unhelpful if the web client (browser or REST clie
 
 In particular, CICS TS treats any OPTIONS request as an invalid request and returns an error to the client.
 
+There is an [existing RFE asking for OPTIONS support (75575)](http://www.ibm.com/developerworks/rfe/execute?use_case=viewRfe&CR_ID=75575).
+
 CORS always needs to be configured in a server responding to HTTP requests - for example, WebSphere Liberty requires [entries in it's server.xml](https://www.ibm.com/support/knowledgecenter/SS7K4U_liberty/com.ibm.websphere.wlp.zseries.doc/ae/twlp_webcontainer_cors_config.html).
 
 How could CICS begin to react more helpfully to OPTIONS requests?
